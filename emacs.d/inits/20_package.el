@@ -22,6 +22,7 @@
     ruby-mode
     ruby-block
     ruby-end
+    yasnippet
     ))
 
 (let ((not-installed (loop for x in installing-package-list

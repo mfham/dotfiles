@@ -3,11 +3,10 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (require 'flymake)
 ;; flymake color
-(set-face-background 'flymake-errline "gray30")
-(set-face-background 'flymake-warnline "dark slate blue")
-;; (custom-set-faces
-;;   '(flymake-errline ((((class color)) (:background "gray30"))))
-;;   '(flymake-warnline ((((class color)) (:background "LightSlateBlue")))))
+(set-face-background 'flymake-errline "light goldenrod")
+(set-face-foreground 'flymake-errline "black")
+(set-face-background 'flymake-warnline "light goldenrod")
+(set-face-foreground 'flymake-warnline "black")
 
 ;; no display in GUI
 (setq flymake-gui-warnings-enabled nil)
