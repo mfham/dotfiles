@@ -23,6 +23,7 @@
     ruby-block
     ruby-end
     yasnippet
+    markdown-mode
     ))
 
 (let ((not-installed (loop for x in installing-package-list
