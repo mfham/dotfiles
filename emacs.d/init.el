@@ -32,3 +32,4 @@
  '(safe-local-variable-values (quote ((encoding . utf-8)))))
 
 (setq ruby-insert-encoding-magic-comment nil)
+(setq vc-follow-symlinks nil)
