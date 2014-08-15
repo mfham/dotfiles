@@ -24,6 +24,8 @@
     ruby-end
     yasnippet
     markdown-mode
+    quickrun
+    rspec-mode
     ))
 
 (let ((not-installed (loop for x in installing-package-list

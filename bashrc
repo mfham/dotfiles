@@ -15,7 +15,7 @@ export TERM="xterm-256color"
 alias rspec="rspec -cfd"
 alias ll='ls -l'
 alias la='ls -a'
-
+alias r='ruby'
 
 # history
 function share_history {
@@ -29,3 +29,5 @@ shopt -u histappend
 export HISTSIZE=99999
 export HISTIGNORE=fg*:bg*:history*:cd*
 export HISTCONTROL=ignoredups
+
+source $HOME/perl5/perlbrew/etc/bashrc
