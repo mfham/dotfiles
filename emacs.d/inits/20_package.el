@@ -26,6 +26,7 @@
     markdown-mode
     quickrun
     rspec-mode
+    popwin
     ))
 
 (let ((not-installed (loop for x in installing-package-list

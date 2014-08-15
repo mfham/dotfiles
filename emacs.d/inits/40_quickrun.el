@@ -1,7 +1,7 @@
 (require 'quickrun)
 
 ;; 結果の出力バッファと元のバッファを行き来させる
-;;(push '("*quickrun*") popwin:special-display-config)
+(push '("*quickrun*") popwin:special-display-config)
 
 ;; F4で実行
 (global-set-key (kbd "<f4>") 'quickrun)
