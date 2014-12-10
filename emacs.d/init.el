@@ -10,7 +10,7 @@
 (setq load-path
       (append
        (list
-        (expand-file-name "~/.emacs.d/")
+        (expand-file-name "~/.emacs.d/lisp")
 ;        (expand-file-name "~/.emacs.d/packages")
 ;        (expand-file-name "~/.emacs.d/auto-install")
 ;        (expand-file-name "~/.emacs.d/packages/direx-el")

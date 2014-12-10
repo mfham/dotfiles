@@ -8,6 +8,7 @@ fi
 # User specific aliases and functions
 
 PATH=$PATH:/usr/local/bin
+
 alias e=$HOME/local/bin/emacs
 alias rm='rm -i'
 export TERM="xterm-256color"
