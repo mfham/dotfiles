@@ -32,3 +32,5 @@ export HISTIGNORE=fg*:bg*:history*:cd*
 export HISTCONTROL=ignoredups
 
 source $HOME/perl5/perlbrew/etc/bashrc
+#export PHPBREW_SET_PROMPT=1
+source ~/.phpbrew/bashrc
